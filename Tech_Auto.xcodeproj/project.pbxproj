@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF8B7FF72B012BC200B7938E /* MyCarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B7FF62B012BC200B7938E /* MyCarDetailView.swift */; };
 		BFE767FD2B0013390027F639 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE767FC2B0013390027F639 /* MainScreen.swift */; };
 		BFE767FF2B0017E60027F639 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE767FE2B0017E60027F639 /* SettingsScreen.swift */; };
 		BFE768022B001BEB0027F639 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE768012B001BEB0027F639 /* Model.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF8B7FF62B012BC200B7938E /* MyCarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarDetailView.swift; sourceTree = "<group>"; };
 		BFE767FC2B0013390027F639 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		BFE767FE2B0017E60027F639 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		BFE768012B001BEB0027F639 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			children = (
 				BFE767FC2B0013390027F639 /* MainScreen.swift */,
 				BFE767FE2B0017E60027F639 /* SettingsScreen.swift */,
+				BF8B7FF62B012BC200B7938E /* MyCarDetailView.swift */,
 			);
 			path = Viewes;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			files = (
 				BFE768042B0022950027F639 /* MyCars.swift in Sources */,
 				BFE767FD2B0013390027F639 /* MainScreen.swift in Sources */,
+				BF8B7FF72B012BC200B7938E /* MyCarDetailView.swift in Sources */,
 				BFE811EA2AF40CEC00AC3687 /* ContentView.swift in Sources */,
 				BFE811F62AF4146000AC3687 /* Marka.swift in Sources */,
 				BFE768022B001BEB0027F639 /* Model.swift in Sources */,

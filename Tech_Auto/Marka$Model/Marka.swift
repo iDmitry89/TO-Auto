@@ -11,7 +11,7 @@ import Foundation
 //    let data: [Marka]
 //}
 
-struct Marka: Identifiable {
+struct Marka: Identifiable, Hashable {
     let id = UUID()
     let name: String
 //    let model: Model

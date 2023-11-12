@@ -12,12 +12,25 @@ struct MainScreen: View {
     let model = Model.getModel()
     
     var body: some View {
-         
+        
         NavigationStack {
-            List(marka) { marka in
-                Text(marka.name)
+            List {
+                Section("My Cars") {
+                    ForEach (marka) {marka in
+                        NavigationLink(marka.name, value: marka)
+                    }
+                }
             }
-            .navigationTitle("Мой гараж")
+            .navigationBarTitle("My Garage")
+            .navigationDestination(for: Marka.self, destination: { index in
+                MyCarDetailView(car: index)
+            })
+            .navigationBarItems(trailing:
+                                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/,
+                                           label: {
+                Image(systemName: "plus")
+            })
+            )
         }
     }
 }
