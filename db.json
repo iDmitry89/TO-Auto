@@ -1,12 +1,12 @@
 {
     "data":[
-        {"name":"Ford"}
-        {"name":"Pontiac"}
-        {"name":"KIA"}
-        {"name":"Toyota"}
-        {"name":"Nissan"}
-        {"name":"Lexus"}
-        {"name":"Ferrari"}
+        {"name":"Ford"},
+        {"name":"Pontiac"},
+        {"name":"KIA"},
+        {"name":"Toyota"},
+        {"name":"Nissan"},
+        {"name":"Lexus"},
+        {"name":"Ferrari"},
         {"name":"Lada (ВАЗ)"}
     ]
 }
